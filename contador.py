@@ -6,4 +6,10 @@ str = f.read()
 if str =="":
     str="0"
 try: 
-    c=n
+    contador =int(str)
+    if len(sys.argv)[1]=="inc":
+        contador + = 1
+    
+    elif sys.argv[1] == "dec":
+        contador - = 1
+    
